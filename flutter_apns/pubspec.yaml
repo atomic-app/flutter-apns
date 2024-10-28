@@ -3,6 +3,8 @@ description: APNS push notification plugin. Uses firebase_messaging on Android, 
 version: 1.6.0
 homepage: https://github.com/mwaylabs/flutter-apns
 
+publish_to: 'none'
+
 plugin:
   platforms:
     android:
@@ -18,7 +20,11 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^2.32.0
-  firebase_messaging: ^14.9.4
+  firebase_messaging:
+    git:
+      url: https://github.com/atomic-app/flutterfire.git
+      path: packages/firebase_messaging/firebase_messaging
+      ref: 14.9.4-atomic-modified
   flutter_apns_only:
 
 dev_dependencies:

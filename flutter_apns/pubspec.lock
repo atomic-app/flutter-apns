@@ -84,10 +84,11 @@ packages:
   firebase_messaging:
     dependency: "direct main"
     description:
-      name: firebase_messaging
-      sha256: a1662cc95d9750a324ad9df349b873360af6f11414902021f130c68ec02267c4
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/firebase_messaging/firebase_messaging"
+      ref: "14.9.4-atomic-modified"
+      resolved-ref: b423f3aa22ca304d56ead247504a8c734ff01a7a
+      url: "https://github.com/atomic-app/flutterfire.git"
+    source: git
     version: "14.9.4"
   firebase_messaging_platform_interface:
     dependency: transitive
