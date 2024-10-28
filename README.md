@@ -1,4 +1,12 @@
-October 29, 2025 - Forked by atomic to downgrade to `firebase_core: ^2.32.0` (from `3.1.0`) and `firebase_messaging: ^14.9.4` (from `15.0.1`) to support iOS `12.0` target, instead of > `13.0`.
+October 29, 2025 - Forked by atomic to downgrade to `firebase_core: ^2.32.0` (from `3.1.0`) and 
+```
+firebase_messaging:
+  git:
+    url: https://github.com/atomic-app/flutterfire.git
+    path: packages/firebase_messaging/firebase_messaging
+    ref: 14.9.4-atomic-modified
+```
+(from `15.0.1`) to support iOS `12.0` target, instead of > `13.0`.
 
 June 19, 2025 - Forked by cah-aamir/iamongit from mwaylabs(https://github.com/mwaylabs/flutter-apns)
 ## Updates
